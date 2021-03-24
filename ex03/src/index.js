@@ -1,17 +1,17 @@
 const MY_CAR = {
-    wheels: 4,
-    cylinders: 4,
-    size: 2.2
-}
+  wheels: 4,
+  cylinders: 4,
+  size: 2.2,
+};
 
-function main(myCar){
-    // Only change code below this line
+function main(myCar) {
+  // Only change code below this line
 
-    const {cylinders: carCylinders, size: carSize} = myCar;
+  const { cylinders: carCylinders, size: carSize } = myCar;
 
-    return {carCylinders, carSize};
+  return { carCylinders, carSize };
 
-    // Only change code above this line
+  // Only change code above this line
 }
 
 console.log(main(MY_CAR));
