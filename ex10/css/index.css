@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+#left {
+  height: 100%;
+  width: 33%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  color: white;
+}
+
+/* Style the content */
+#right {
+  margin-left: 67%;
+  color: white;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input {
+  /* In order to define widths */
+  display: inline-block;
+}
